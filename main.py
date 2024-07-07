@@ -5,7 +5,7 @@ width = 100
 height = 100
 fps = 60
 duration = 3
-text = "Privet Sveta"
+text = "Hello, World!"
 
 fourcc = cv2.VideoWriter_fourcc(*'avc1')  # Кодек для мака
 video = cv2.VideoWriter('running_text.mov', fourcc, fps, (width, height))
